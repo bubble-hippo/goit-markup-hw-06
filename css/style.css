@@ -682,13 +682,13 @@ h2 {
 
 .form-input {
   width: 100%;
-  padding: 12px 12px 12px 36px;
+  padding: 11px 12px 11px 36px;
   border: 1px solid var(--form-border);
 }
 
 .comment-input {
   width: 100%;
-  padding: 12px;
+  padding: 11px 12px;
   resize: none;
   border: 1px solid var(--form-border);
   font-size: 12px;
@@ -709,6 +709,7 @@ h2 {
 
 .form-input,
 .comment-input {
+  border-radius: 4px;
   transition: border-color 250ms var(--cubic);
 }
 
@@ -808,4 +809,9 @@ h2 {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.modal-order {
+  padding-right: 55px;
+  padding-left: 55px;
 }
